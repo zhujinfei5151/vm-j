@@ -1,0 +1,136 @@
+/**
+ * 
+ */
+
+/**
+ * 箭头刷新（普通）
+ */
+.arrow_refresh{
+	background-image:url(../images/icons/arrow_refresh.png) !important;
+}
+/**
+ * 箭头刷新（小）
+ */
+.arrow_refresh_small{
+	background-image:url(../images/icons/arrow_refresh_small.png) !important;
+}
+/**
+ * 箭头缩小/还原
+ */
+.arrow_in{
+	background-image:url(../images/icons/arrow_in.png) !important;
+}
+/**
+ * 箭头放大/满屏
+ */
+.arrow_out{
+	background-image:url(../images/icons/arrow_out.png) !important;
+}
+/**
+ * 应用边栏列表
+ */
+.application_side_list{
+	background-image:url(../images/icons/application_side_list.png) !important;
+}
+/**
+ * 应用边栏树
+ */
+.application_side_tree{
+	background-image:url(../images/icons/application_side_tree.png) !important;
+}
+/**
+ * 应用边from
+ */
+.application_form{
+	background-image:url(../images/icons/application_form.png) !important;
+}
+/**
+ * 书
+ */
+.book{
+	background-image:url(../images/icons/book.png) !important;
+}
+/**
+ * 用户评论
+ */
+.user_comment{
+	background-image:url(../images/icons/user_comment.png) !important;
+}
+/**
+ * 添加
+ */
+.add{
+	background-image:url(../images/icons/add.png) !important;
+}
+/**
+ * 删除
+ */
+.cross{
+	background-image:url(../images/icons/cross.png) !important;
+}
+/**
+ * 修改记事
+ */
+.note_edit{
+	background-image:url(../images/icons/note_edit.png) !important;
+}
+/**
+ * 查询
+ */
+.find{
+	background-image:url(../images/icons/find.png) !important;
+}
+/**
+ * 预览
+ */
+.eye{
+	background-image:url(../images/icons/eye.png) !important;
+}
+
+
+.user{ background-image: url(../images/icons/user.png) !important; background-repeat: no-repeat; }
+/**
+ * 用户
+ */
+.user_add{ background-image: url(../images/icons/user_add.png) !important; background-repeat: no-repeat; }
+/**
+ * 删除用户
+ */
+.user_delete{ background-image: url(../images/icons/user_delete.png) !important; background-repeat: no-repeat; }
+/**
+ * 用户编辑
+ */
+.user_edit{ background-image: url(../images/icons/user_edit.png) !important; background-repeat: no-repeat; }
+/**
+ * 用户退出
+ */
+.user_go{ background-image: url(../images/icons/user_go.png) !important; background-repeat: no-repeat; }
+
+/**
+ * 密码
+ */
+.key{ background-image: url(../images/icons/key.png) !important; background-repeat: no-repeat; }
+
+/**
+ * 删除
+ */
+.delete{ background-image: url(../images/icons/delete.png) !important; background-repeat: no-repeat; }
+/**
+ * 设置
+ */
+.wrench{ background-image: url(../images/icons/wrench.png) !important; background-repeat: no-repeat; }
+
+/**
+ * 私人文件
+ */
+.folder_key{ background-image: url(../images/icons/folder_key.png) !important; background-repeat: no-repeat; }
+
+/**
+ * 共享文件
+ */
+.folder_lightbulb{ background-image: url(../images/icons/folder_lightbulb.png) !important; background-repeat: no-repeat; }
+
+/**
+ * 发送文件
+ */
+.folder_go{ background-image: url(../images/icons/folder_go.png) !important; background-repeat: no-repeat; }
