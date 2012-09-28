@@ -1,0 +1,65 @@
+
+.singlePageBody{
+	background: #F0F0F0/*#DFE8F6*/;
+}
+
+#headerDiv{
+	height:40px;
+	line-height:40px;
+}
+#headerDiv table{
+	font-size: 12px;
+}
+.logo{
+	font-family: arial, tahoma, helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:5px;
+}
+.loginInfo{
+}
+.loginInfo a:link{
+	color: #000000;
+	text-decoration: underline;
+}
+.loginInfo a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+.loginInfo a:visit{
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+#logo-table{
+	width: 100%;
+	font-size: 32px;
+	font-weight: bold;
+	margin:50px auto auto auto;
+}
+#login-win-div{
+	text-align:left;
+	margin:95px auto auto auto;
+}
+.errorMsg{
+	color: red;
+}
+
+
+#register-win-div{
+	position:relative;
+	text-align:left;
+	margin:255px auto auto auto;
+}
+
+
+#resetPwd-win-div{
+	text-align:left;
+	margin:110px auto auto auto;
+}
+
+#setup-win-div{
+	text-align:left;
+	margin:110px auto auto auto;
+}
