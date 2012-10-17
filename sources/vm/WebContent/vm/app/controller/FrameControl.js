@@ -74,8 +74,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'summary',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200	
+        					closable:true
+        					//,
+        					//x:200	
         				});
  
         }else if(!tab&&item.id==4){
@@ -83,8 +84,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'class',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200
+        					closable:true
+        					//,
+        					//x:200
         						
         				});
         	tab.getComponent('classchart').store.load();
@@ -111,8 +113,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'thread',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200
+        					closable:true
+        					//,
+        					//x:200
         						
         				});
         	var vstore =tab.getComponent('threadchart').store;
@@ -133,8 +136,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'memory',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200
+        					closable:true
+        					//,
+        					//x:200
         						
         				});
         	var vstore =tab.getComponent('memorychart').store;
@@ -165,8 +169,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'web',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200
+        					closable:true
+        					//,
+        					//x:200
         						
         				});
         	
@@ -177,8 +182,9 @@ Ext.define('ExtJs.controller.FrameControl',{
         					xtype:'visit',
         					title:item.text,
         					id:moduleTabId,
-        					closable:true,
-        					x:200
+        					closable:true
+        					//,
+        					//x:200
         						
         				});
         	var vstore =tab.getComponent('visitsizechart').store;

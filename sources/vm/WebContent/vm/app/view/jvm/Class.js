@@ -10,7 +10,10 @@ Ext.define('ExtJs.view.jvm.Class',{
 	//vstore.load();
 	
 	Ext.apply(this, {	
-		
+		layout:{
+			type:'table',
+			columns:2
+		},
 		items : [{
 				id : 'classchart',
 				xtype : 'chart',

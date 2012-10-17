@@ -10,7 +10,10 @@ Ext.define('ExtJs.view.web.Visit',{
 	//vstore.load();
 	var visitGridStore =Ext.create('ExtJs.store.web.VisitStore',{storeId:'vits'});
 	Ext.apply(this, {	
-		
+		layout:{
+			type:'table',
+			columns:2
+		},
 		items : [{
 				id : 'visitsizechart',
 				xtype : 'chart',

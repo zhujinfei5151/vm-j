@@ -10,7 +10,10 @@ Ext.define('ExtJs.view.jvm.Memory',{
 	//vstore.load();
 	var vstores = Ext.create('ExtJs.store.jvm.MemorysStore',{storeId:'ms'});
 	Ext.apply(this, {	
-		
+		layout:{
+			type:'table',
+			columns:2
+		},
 		items : [{
 				id : 'memorychart',
 				xtype : 'chart',
