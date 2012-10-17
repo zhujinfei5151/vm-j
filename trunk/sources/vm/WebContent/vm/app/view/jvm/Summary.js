@@ -17,7 +17,11 @@ Ext.define('ExtJs.view.jvm.Summary',{
 	        json =jsonResult;
 	    }
 		});
-		Ext.apply(this, {		
+		Ext.apply(this, {	
+				layout:{
+					type:'table',
+					columns:2
+				},
 				items : [
 					{
 						width : 550,

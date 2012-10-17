@@ -16,6 +16,10 @@ Ext.define('ExtJs.view.web.Web',{
 	    }
 		});
 		Ext.apply(this, {	
+			layout:{
+				type:'table',
+				columns:2
+			},
 			items : [
 					{
 						width : 550,

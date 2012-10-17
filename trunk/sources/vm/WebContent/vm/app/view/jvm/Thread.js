@@ -10,7 +10,10 @@ Ext.define('ExtJs.view.jvm.Thread',{
 	//vstore.load();
 	var threadGridStore =Ext.create('ExtJs.store.jvm.ThreadsStore',{storeId:'vts'});
 	Ext.apply(this, {	
-		
+		layout:{
+			type:'table',
+			columns:2
+		},
 		items : [{
 				id : 'threadchart',
 				xtype : 'chart',
